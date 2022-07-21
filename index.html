@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+            <h2 class="text-capitalize ">Sports</h2>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <h3>Michael Jordan</h3>
+            <h4>
+                <mark class="header_entrepreneur">
+                    <i>
+                        <sup><i class="fa fa-quote-left"></i></sup>
+                        Never say never because limits, like fears, are often just illusions.
+                        <!-- Add class fa fa-quote-right  below-->
+                        <sup><i class="fa fa-quote-right"></i></sup>
+                        <br>
+                        <br>
+                        <sup><i class="fa fa-quote-left"></i></sup>
+                       I can accept failure, everyone fails at something. But I can't accept not trying.
+                        <!-- Add class fa fa-quote-right  below-->
+                        <sup><i class="fa fa-quote-right"></i></sup>
+                    </i>
+                </mark>
+            </h4>
+
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize ">List of Sports</h2>
+        </div>
+
+        <!--add data-toggle="modal" below in the div tag-->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport" data-toggle="modal" data-target="#basketball">
+            <img src="basketball.jpg" class="img-responsive TheImage">
+            <hr>
+            <p class="text-primary LinkBelow">Basketball</p>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="basketball">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Basketball</h4>
+                    </div>
+                    <!--add bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="basketball.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Basketball, a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent’s goal, an elevated horizontal hoop and net called a basket.<br>
+                            <a href="https://en.wikipedia.org/wiki/Basketball" target="_blank"><b>ABOUT BASKETBALL</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport" data-toggle="modal" data-target="#soccer">
+            <img src="Graphic_Poster_Designs_by_Mark_Brooks-removebg-preview.png" class="img-responsive TheImage" id="SoccaImage">
+            <hr>
+            <p class="text-primary LinkBelow">Soccer</p>
+        </div>
+
+        <div class="modal fade" id="soccer">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Soccer</h4>
+                    </div>
+                    <!--add bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="Graphic_Poster_Designs_by_Mark_Brooks-removebg-preview.png" class="img-responsive img_modal" id="SetSize">
+                        <p class="p_modal">Soccer, a game played on a field between two teams of 11 players each with the object to propel a round ball into the opponent's goal by kicking or by hitting it with any part of the body except the hands and arms.<br>
+                            <a href="https://en.wikipedia.org/wiki/Association_football" target="_blank"><b>ABOUT SOCCER</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport" data-toggle="modal" data-target="#football">
+            <img src="American_football_van_Jimmys_Drawings_op_canvas__behang_en_meer-removebg-preview.png" class="img-responsive TheImage" id="FootImage">
+            <hr>
+            <p class="text-primary LinkBelow">American Football</p>
+        </div>
+
+        <div class="modal fade" id="football">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">American Football</h4>
+                    </div>
+                    <!--add bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="American_football_van_Jimmys_Drawings_op_canvas__behang_en_meer-removebg-preview.png" class="img-responsive img_modal" id="SeetSize">
+                        <p class="p_modal">American football is a game similar to rugby that is played by two teams of eleven players using an oval-shaped ball. Players try to score points by carrying the ball to their opponents' end of the field, or by kicking it over a bar fixed between two posts.<br>
+                            <a href="https://en.wikipedia.org/wiki/American_football" target="_blank"><b>ABOUT AMERICAN FOOTBALL</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body></html>

@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(#163F5D 0%, black 80%, black 100%);
+}
+
+.book {
+    cursor: pointer;
+}
+
+.sport hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center
+}
+
+.LinkBelow {
+    font-size: 20px;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+.TheImage {
+    cursor: pointer;
+}
+
+h2,
+h3 {
+    color: white;
+}
+
+#SoccaImage {
+    width: 150px;
+    margin-top: -10px;
+    margin-top: 0.1px;
+}
+
+#SetSize {
+    width: 600px;
+    margin-bottom: -60px;
+}
+
+#SeetSize {
+    width: 600px;
+}
+
+#Ball {
+    color: white;
+    font-size: 25px
+}
